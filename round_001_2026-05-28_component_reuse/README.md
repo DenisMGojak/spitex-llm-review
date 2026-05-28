@@ -4,7 +4,25 @@
 **Topic**: Component reuse, design-system consistency, reusability gaps
 **Goal**: get 3 external LLM perspectives on Megalith's UI that inform iter 271 Stage 1 (component consolidation feature work)
 **Lead**: cc
-**Status**: STRUCTURE READY → awaiting screenshots from `c1_263a` lane
+**Status**: STRUCTURE READY → 18 PNGs captured ✅ → **PUBLISHED PUBLICLY** ✅ → awaiting LLM dispatch
+
+## 🌐 Public mirror (paste these URLs into LLMs — no manual upload needed)
+
+This round is mirrored at a public GitHub Pages site so any LLM with web-fetch can read it directly:
+
+- **Repo**: https://github.com/DenisMGojak/spitex-llm-review
+- **Pages root**: https://denismgojak.github.io/spitex-llm-review/
+- **Brief (paste this URL into Grok / Claude / ChatGPT / Gemini chat)**:
+  https://denismgojak.github.io/spitex-llm-review/round_001_2026-05-28_component_reuse/00_brief.md
+
+Deep-link examples (the brief references everything else relatively, so most LLMs can crawl from the brief alone):
+- Screenshot 01: https://denismgojak.github.io/spitex-llm-review/round_001_2026-05-28_component_reuse/02_screenshots/01_lane_dashboard_kanban.png
+- Context: https://denismgojak.github.io/spitex-llm-review/round_001_2026-05-28_component_reuse/01_context/app_overview.md
+- Code sample: https://denismgojak.github.io/spitex-llm-review/round_001_2026-05-28_component_reuse/03_code_samples/filter_panel.ex
+
+`.nojekyll` is set so all `.md` / `.png` / `.ex` files are served raw (no Jekyll mangling). Privacy stance: **deliberately public** for outside review (no secrets; code samples are excerpts, not the full codebase).
+
+To re-publish this round (after edits), copy the round folder into the public repo and `git push`. Round 2+ should append a sibling folder (`round_002_*`); README in the public repo lists active rounds.
 
 ## What this round asks
 
